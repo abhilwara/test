@@ -1,0 +1,107 @@
+HOW have I demonstrated the expected behaviours consistently throughout the year:
+•	ICARE values (for everyone)
+•   Sound Risk Management (for Everyone)
+•	New Ways of Leading (for all People Leaders)
+•	BEAR compliance (for Accountable Persons and their direct reports) 
+INTEGRITY: Have never compromised on solutions and designs. I have always focused on using latest and better enterprise solutions instead of reusing old ones, even if it means more effort and time on my part. Few examples:
+- Had an option to connect to ANZx Fabric APIs over HTTP/REST but chose GRPC protocol instead as that is futuristic and performant, although that meant additional effort for creating new MU framework modules.
+- The in-house ID permanence solution could be reused as is for OB for ANZx. Since VAULT ADP was the new enterprise solution for tokenization, I explored the solution instead of choosing the easy path of reusing ID Permanence.
+- For OB Classic, communication b/w GCP and On-Prem APIc was via B2B Datapower. The same pattern could be reused by OB for ANZx but pushed for direct connection from GCP to APIc as Datapower is on the sunset path.
+
+COLLABORATION & ACCOUNTABILITY: Have always shown accountability whether it was for owning and delivering a piece of work or for accepting a fault on my part.
+Open Banking for ANZx was a fresh initiative and there was a lot of collaboration required with different new teams for getting the requirements and clarifications. By raising the right questions, prioritization of tasks, documentation design decisions and timely communication, I have been able to set the right delivery expectations with the stakeholders.
+
+RESPECT: As a development lead and scrum master, I have been understanding of the fact that every resource has his own capability and pace to pick up and adjust to a new squad, new environment or new technology and sometimes they may take some time before they can deliver quality work. I have treated all my squad members and peers with due respect. Provided help and support to my peers and squad members wherever necessary without judging and without making any assumption.
+I have been patient in addressing all queries raised by my squad members and provided the required knowledge transfer sessions wherever there was a gap while ensuring that I am not spoon feeding.  
+
+EXCELLENCE: I am fortunate to be part of a squad where each member has so much of technical expertise and the work is such that there are continuous learning opportunities. Each squad member has something to offer and learn from which has motivated and challenged me to be more strong technically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT are the key achievements and outcomes I have delivered this year?
+(Describe at least 2-3 key outcomes delivered in line with your performance ‘what’ objectives, including contributions to your team and ANZ)
+
+
+Build strategic integration solutions:
+
+1. For OB for ANZx, we chose to use GRPC to connect to the Fabric services. The MU framework did not have support for GRPC. Designed and created two new reusable modules to enhance the MU framework to support GRPC protocol. The modules can be reused by any other project with requirement of GRPC.
+https://confluence.service.anz/display/EAIS/Framework+Modules#FrameworkModules-mu-grpc-client
+https://confluence.service.anz/display/EAIS/Framework+Modules#FrameworkModules-mu-connector-grpc
+
+2. ANZx uses Open Telemetry for distributed tracing. The MU framework had support only for Open Tracing. Modified the MU Audit Logger module such that it supports both Open Telemetry and Open Tracing. This can be reused by any other project in future.
+
+3. The protobuf files for GRPC needs compiling before they are used in the GRPC module. For this created a reusable CodeFresh pipeline design that compiles the protobuf files, creates a npm package out of it and publishes it to artifactory.
+https://confluence.service.anz/display/EAIS/MU+based+gRPC+Integration
+
+4. Google Pub Sub was another new integration in GCP, that my squad implemented for OB for ANZx.
+
+Code and documentation are completed, tested, and peer reviewed:
+
+1. As the lead and scrum master for Surya Squad, I have ensured that for all nodejs APIs built for OB for ANZx:
+- proper peer review is performed
+- proper design documents are created. 
+- proper test cases are written and adequate code coverage is done.
+- the code and git repos follow the integration standards outlined in Confluence. 
+2. Maintained proper Clarification Register for all requirement and design related queries, wherever there was dependency on other teams. All design decisions were documented in detail and communicated so all stakeholders in a timely manner.
+
+Reliable delivery of change:
+
+1. My squad has been able to deliver OB related Integration deliverable as per the project's expectation and in most cases well ahead of the deadlines. The squad has received appreciation for its quick turn around time at multiple occasions.
+
+2. Having good knowledge of all the platforms involved in the OB Classic solution, was able to drive and lead all of the Production Release activities.
+- identifying dependencies and prerequisites
+- creating/reviewing release documents
+- providing walk-through of the solution with the security teams and the production support team
+- remediating pen-sec vulnerabilities.
+- performing deployment activities
+
+======================================================
+What have I learnt this year and what will I start doing differently? 
+(Consider the feedback you have received throughout the year and how you have adapted)
+
+
+I have learnt:
+- to keep my stakeholders apprised of where my time is being utilized and what 'ad-hoc' tasks i am engaged in.
+- to push back when the expectation is unrealistic
+- that while helping others is good, I should not always spoon feed. This can eat up into my productivity. 
+- that learning new stuff is not enough, you need to share the knowledge across the team.
+
+
+
+How have I grown myself and others?
+
+1. Performing the Scrum master role for Surya Squad
+2. Volunteered to participate in the E2E service mapping excercise for Tech Connect. This excercise was to create a service mapping of all components involved in the some of the payments integration flows. So that whenever a service is flagged as impacted in Tech COnnect the relevant components in the flow are also highlighted. 
+3. Volunteered for thr Core team for Engineering standard
+4. Conducted several Interviews for hiring new resources in the squad
+5. Conducted a session on GRPC for the Chapter
+6. Continuously guiding and helping squad members with Nodejs, APIc, Datapower, CICD and design decisions related to integration flows.
+7. Undergoing the On Demand Confluent KAFKA training
+8. Enrolled for the Google Cloud Digital Leader Certification
+9. I have been able to work on my nodejs skill and improve it to the next level.
+
+Others:
+
+1. OB team was also nominated for the year End Recognition. 
+

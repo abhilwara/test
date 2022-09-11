@@ -1,0 +1,65 @@
+Q2. What are the key achievements, outcomes and results I have delivered this year?
+(Describe at least 3-4 key outcomes delivered in balanced way across all WHAT objectives, including sound risk management. Remember to account for your personal contribution to the success of your team, ANZ and our customers).
+
+Squad project delivery
+
+* Maintaining Jira hygiene * Efective story creation : DOD, AC, story point, due date etc. * Delivering all stories on time. * Adhering to current technology standards, roadmap, pattern
+
+
+Self-Service Adoption
+
+* Maximum use of automation * Explore self-service capabilities * Either use or contribute to automation
+
+
+Supporting Chapter
+
+* Mentoring others within or across squad * Supporting cross-skill
+
+
+
+Squad project delivery:
+
+Worked extensively to deliver the OB ANZx project single handed. Being the only FTE, took full responsibility & ownership from end to end. Driving each activity from planning to execution.The scope spanned from understanding project visions, collating business requirements, chartering out clear execution plan to deliver specific integration solutions.
+Highlights:
+
+- Being the only member in the OB ANZx squad with prior knowledge of Open Banking, I was tasked with delivering 14 OB APIs. 
+- Inspite of vendor resources being allocated, they were new to the MU framework, GCP and OB. Ensured continuous training and mentoring of new team members inspite of high churn rates, bringing everyone to speed and ensuring impactless deliveries.
+- Led all design and mapping related discussions.
+- Reviewed each and every PR extensively to minimise defects leaking into production.
+- Mu framework modification
+- Pre-emptive risk assessment.
+- Setting up new technologies, google pub sub, redis caching, 
+- Driving pen sec testing and managing Twistlock Vulnerabilities
+- Creating release documents. DR,  Solution Intent, 
+- Production planning, timely identifying dependencies & prerequisite
+- Vault setup
+- Setting up Test lanes
+-Blackduck checkmarx
+Kong design
+Use of IG JWT issuer instead of B2B
+Set Up Codefresh for ANZx
+Error Handling and Event Schema
+- Being the only lead with requisite knowledge and skillset, worked collaboratively with the team to deliver high standard results seamlessly. 
+OB ANZx was delivered on time recognised among the most seamless project and received appreciation. 
+- Adhering to current technology standards, roadmap, pattern
+
+Supporting Chapter / Squad project delivery
+
+Took the initiative in taking additional responsibility of leading the OB Classic Prometheus squad besides OB ANZx Surya squad.
+- Lead all design discussions
+- Drive the Sprint planning sessions taking into account the Release vision and goals. 
+- Effective time & resource optimization by planning and prioritizing Stories and continuous backlog refinement while maintaining proper JIRA hyegiene at all times.
+- Ensuring the squad remains aligned at all times, providing requisite support constantly and offering course correction wherever needed.
+
+
+
+
+There will always be a question as to what have you done other than project work, but the very fact that the project was delivered so smoothly without any issues speaks of where all the time went. 
+
+The other option was to deliver half baked solution and then steal the limelight by fixing them later.
+
+
+
+
+
+
